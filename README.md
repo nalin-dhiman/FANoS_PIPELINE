@@ -1,5 +1,5 @@
 
-# FANoS mResults Package
+# FANoS Results Package
 
 This package contains the implementation, experiment runners, and results pipeline for the FANoS optimizer paper.
 
