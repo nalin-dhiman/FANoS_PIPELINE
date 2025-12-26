@@ -1,0 +1,12 @@
+\begin{tabular}{llcccc}
+\toprule
+Problem & Pipeline & Mean final loss & Std & 95\% CI & Time (mean$\pm$std) \\
+\midrule
+AllenCahn & AdamW→LBFGS & 6.76e-07 & 4.11e-07 & [3.41e-07, 1.06e-06] & 2.06$\pm$0.08 \\
+AllenCahn & FANoS→LBFGS & 1.87e-06 & 2.42e-06 & [4.54e-07, 4.30e-06] & 3.00$\pm$0.39 \\
+AllenCahn & RMSProp→LBFGS & 8.79e-07 & 6.89e-07 & [3.29e-07, 1.51e-06] & 2.01$\pm$0.14 \\
+Burgers & AdamW→LBFGS & 6.19e-07 & 4.22e-07 & [2.56e-07, 9.81e-07] & 3.05$\pm$1.03 \\
+Burgers & FANoS→LBFGS & 6.07e-08 & 2.58e-08 & [3.82e-08, 8.33e-08] & 2.59$\pm$0.45 \\
+Burgers & RMSProp→LBFGS & 2.18e-07 & 2.49e-07 & [3.00e-08, 4.66e-07] & 2.35$\pm$0.38 \\
+\bottomrule
+\end{tabular}
