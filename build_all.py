@@ -7,7 +7,7 @@ import sys
 import pandas as pd
 import os
 
-# ROOT is the directory containing this script (FANoS_PUBLISHABLE_PIPELINE)
+# ROOT is the directory containing this script (FANoS_PIPELINE)
 ROOT = Path(__file__).resolve().parent
 
 def run(cmd: list[str]):
