@@ -33,3 +33,30 @@ After running, check:
 - `artifacts/plots/`: PDF/PNG figures.
 - `artifacts/tables/`: LaTeX tables.
 - `artifacts/stats/`: Summary CSVs with bootstrapped CIs.
+
+
+
+
+## Install
+
+```bash
+pip install fanos
+```
+
+## Quickstart
+
+```python
+import torch
+from fanos import FANoS
+
+model = torch.nn.Linear(10, 1)
+opt = FANoS(model.parameters(), lr=1e-3, grad_clip=1.0)
+
+x = torch.randn(64, 10)
+y = torch.randn(64, 1)
+
+loss = torch.nn.functional.mse_loss(model(x), y)
+loss.backward()
+opt.step()
+opt.zero_grad()
+```
