@@ -1,0 +1,2 @@
+optimizer,loss,top1,seconds,state_mb,peak_gpu_mb,device,dataset
+fanosv2,0.11148273944854736,0.9087380573248408,37.95668120900518,0.8076934814453125,0.0,mps,fashionmnist

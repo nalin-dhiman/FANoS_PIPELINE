@@ -1,0 +1,2 @@
+optimizer,loss,top1,seconds,state_mb,peak_gpu_mb,device,dataset
+fanosv2,0.03215104714035988,0.9914410828025477,68.1114505000005,0.8076934814453125,0.0,cpu,mnist

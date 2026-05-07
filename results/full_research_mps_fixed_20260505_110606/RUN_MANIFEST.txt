@@ -1,0 +1,8 @@
+generated=2026-05-05 11:06:06
+device=mps
+blocks=vision stiff pinn eeg
+vision_datasets=mnist fashionmnist cifar10
+seeds=0 1 2 3 4
+configs=low_lr auto stable vision_sweep_best
+results_root=/Users/nalin/Downloads/fanos_v2/results/full_research_mps_fixed_20260505_110606
+report_root=/Users/nalin/Downloads/fanos_v2/reports

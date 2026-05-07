@@ -1,0 +1,121 @@
+task,optimizer,seed,final_loss,metric,seconds,state_mb,status
+rosenbrock100,fanosv2,0,30.719642639160156,5.600940227508545,2.08135916700121,0.000762939453125,ok
+rosenbrock100,adamw,0,1447.04296875,9.392080307006836,0.5264709999901243,0.000766754150390625,ok
+rosenbrock100,sgd,0,nan,nan,0.43341274998965673,0.0003814697265625,nonfinite
+rosenbrock100,rmsprop,0,0.008167855441570282,0.0036952728405594826,0.5156112909899093,0.000766754150390625,ok
+rosenbrock100,fanosv2,1,45.47015380859375,6.780247688293457,2.0492431670136284,0.000762939453125,ok
+rosenbrock100,adamw,1,1553.6239013671875,10.333817481994629,0.5256695409771055,0.000766754150390625,ok
+rosenbrock100,sgd,1,43.1535758972168,6.610225200653076,0.4315676250262186,0.0003814697265625,ok
+rosenbrock100,rmsprop,1,0.04982960224151611,0.354571133852005,0.5099307909840718,0.000766754150390625,ok
+rosenbrock100,fanosv2,2,47.02983856201172,6.895089626312256,2.01175470801536,0.000762939453125,ok
+rosenbrock100,adamw,2,1875.744873046875,10.275527000427246,0.5258384170010686,0.000766754150390625,ok
+rosenbrock100,sgd,2,nan,nan,0.43371587499859743,0.0003814697265625,nonfinite
+rosenbrock100,rmsprop,2,7.914173126220703,2.9523353576660156,0.5166368750215042,0.000766754150390625,ok
+rosenbrock100,fanosv2,3,46.021484375,6.819368362426758,2.0449903330008965,0.000762939453125,ok
+rosenbrock100,adamw,3,1606.13037109375,9.643301010131836,0.5146100000129081,0.000766754150390625,ok
+rosenbrock100,sgd,3,43.415809631347656,6.629827499389648,0.4266057090135291,0.0003814697265625,ok
+rosenbrock100,rmsprop,3,0.08561103045940399,0.47674795985221863,0.5079338749928866,0.000766754150390625,ok
+rosenbrock100,fanosv2,4,2.9179434776306152,1.960961937904358,2.056941499991808,0.000762939453125,ok
+rosenbrock100,adamw,4,1520.8115234375,7.974685192108154,0.5282532919954974,0.000766754150390625,ok
+rosenbrock100,sgd,4,42.05583190917969,6.527530670166016,0.4345617920043878,0.0003814697265625,ok
+rosenbrock100,rmsprop,4,0.011872353032231331,0.004237479530274868,0.517812292004237,0.000766754150390625,ok
+ill_conditioned_quadratic,fanosv2,0,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,adamw,0,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,sgd,0,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,rmsprop,0,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,fanosv2,1,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,adamw,1,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,sgd,1,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,rmsprop,1,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,fanosv2,2,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,adamw,2,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,sgd,2,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,rmsprop,2,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,fanosv2,3,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,adamw,3,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,sgd,3,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,rmsprop,3,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,fanosv2,4,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,adamw,4,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,sgd,4,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+ill_conditioned_quadratic,rmsprop,4,nan,nan,0.0,0.0,"error:NotImplementedError:The operator 'aten::logspace.out' is not currently implemented for the MPS device. If you want this op to be considered for addition please comment on https://github.com/pytorch/pytorch/issues/141287 and mention use-case, that resulted in missing op as well as commit hash a1cb3cc05d46d198467bebbb6e8fba50a325d4e7. As a temporary fix, you can set the environment variable `PYTORCH_ENABLE_MPS_FALLBACK=1` to use the CPU as a fallback for this op. WARNING: this will be slower than running natively on MPS."
+noisy_small_regression,fanosv2,0,0.010297747328877449,0.043699540197849274,5.619268542010104,0.00879669189453125,ok
+noisy_small_regression,adamw,0,0.0010084849782288074,0.04510243982076645,1.2097796659800224,0.008819580078125,ok
+noisy_small_regression,sgd,0,0.45957285165786743,0.36451956629753113,0.6732094170001801,0.004398345947265625,ok
+noisy_small_regression,rmsprop,0,0.0006585923256352544,0.05236636847257614,1.1762622079986613,0.008819580078125,ok
+noisy_small_regression,fanosv2,1,0.01421208493411541,0.052542269229888916,5.566606000007596,0.00879669189453125,ok
+noisy_small_regression,adamw,1,0.0053802719339728355,0.045289475470781326,1.198201708990382,0.008819580078125,ok
+noisy_small_regression,sgd,1,0.3738769292831421,0.2873617112636566,0.6762008749938104,0.004398345947265625,ok
+noisy_small_regression,rmsprop,1,0.0003606354002840817,0.05850287526845932,1.165950916998554,0.008819580078125,ok
+noisy_small_regression,fanosv2,2,0.0021434009540826082,0.08463829755783081,5.8636098749993835,0.00879669189453125,ok
+noisy_small_regression,adamw,2,0.0013332599774003029,0.08167984336614609,1.1871278749895282,0.008819580078125,ok
+noisy_small_regression,sgd,2,0.4858444333076477,0.34461531043052673,0.6700004159938544,0.004398345947265625,ok
+noisy_small_regression,rmsprop,2,0.0007135081104934216,0.08457070589065552,1.172665792022599,0.008819580078125,ok
+noisy_small_regression,fanosv2,3,0.004996070172637701,0.0614682137966156,5.575092917017173,0.00879669189453125,ok
+noisy_small_regression,adamw,3,0.007909301668405533,0.04981587827205658,1.2038650829927064,0.008819580078125,ok
+noisy_small_regression,sgd,3,0.4655725359916687,0.3648642301559448,0.6723300000012387,0.004398345947265625,ok
+noisy_small_regression,rmsprop,3,0.001221809652633965,0.06386980414390564,1.182885374990292,0.008819580078125,ok
+noisy_small_regression,fanosv2,4,0.0011575883254408836,0.0433586984872818,5.4896126670064405,0.00879669189453125,ok
+noisy_small_regression,adamw,4,0.0010899724438786507,0.0440308079123497,1.1796265830053017,0.008819580078125,ok
+noisy_small_regression,sgd,4,0.3729402422904968,0.329795241355896,0.6629277089959942,0.004398345947265625,ok
+noisy_small_regression,rmsprop,4,0.0004873584839515388,0.04348517954349518,1.1598820420040283,0.008819580078125,ok
+ode_exp_fit,fanosv2,0,0.00010036624735221267,0.007663369178771973,1.8432352919771802,7.62939453125e-06,ok
+ode_exp_fit,adamw,0,0.00010036621824838221,0.007663607597351074,0.3926280410087202,1.1444091796875e-05,ok
+ode_exp_fit,sgd,0,0.00010037561878561974,0.008277535438537598,0.30112445799750276,3.814697265625e-06,ok
+ode_exp_fit,rmsprop,0,0.00010056127212010324,0.0036617517471313477,0.38270845799706876,1.1444091796875e-05,ok
+ode_exp_fit,fanosv2,1,7.807151996530592e-05,0.00644993782043457,1.799368959007552,7.62939453125e-06,ok
+ode_exp_fit,adamw,1,7.807149086147547e-05,0.006449699401855469,0.38969466599519365,1.1444091796875e-05,ok
+ode_exp_fit,sgd,1,7.808347436366603e-05,0.005748867988586426,0.3019863330118824,3.814697265625e-06,ok
+ode_exp_fit,rmsprop,1,7.834110147086903e-05,0.010177850723266602,0.38458995800465345,1.1444091796875e-05,ok
+ode_exp_fit,fanosv2,2,0.00012131720723118633,0.0017856359481811523,1.8223028329957742,7.62939453125e-06,ok
+ode_exp_fit,adamw,2,0.00012131722905905917,0.0017857551574707031,0.3924507499905303,1.1444091796875e-05,ok
+ode_exp_fit,sgd,2,0.00012132761912653223,0.0024385452270507812,0.30045074998633936,3.814697265625e-06,ok
+ode_exp_fit,rmsprop,2,0.00012143362255301327,0.005576491355895996,0.38903237498016097,1.1444091796875e-05,ok
+ode_exp_fit,fanosv2,3,0.0001179299724753946,0.0092850923538208,1.7945959999924526,7.62939453125e-06,ok
+ode_exp_fit,adamw,3,0.0001179299724753946,0.0092850923538208,0.3925787080079317,1.1444091796875e-05,ok
+ode_exp_fit,sgd,3,0.00011794020247180015,0.009934425354003906,0.30297174997394904,3.814697265625e-06,ok
+ode_exp_fit,rmsprop,3,0.00011919021926587448,0.015192389488220215,0.37966574999154545,1.1444091796875e-05,ok
+ode_exp_fit,fanosv2,4,7.636267400812358e-05,0.010418057441711426,1.9855729999835603,7.62939453125e-06,ok
+ode_exp_fit,adamw,4,7.636262307642028e-05,0.010418295860290527,0.44400862499605864,1.1444091796875e-05,ok
+ode_exp_fit,sgd,4,7.637219823664054e-05,0.01104116439819336,0.33166424999944866,3.814697265625e-06,ok
+ode_exp_fit,rmsprop,4,7.775700214551762e-05,0.014632701873779297,0.42204854197916575,1.1444091796875e-05,ok
+poisson_pinn_1d,fanosv2,0,0.01623883843421936,0.0004564856644719839,10.008299083012389,0.00879669189453125,ok
+poisson_pinn_1d,adamw,0,0.0015294027980417013,2.9161189019077938e-08,3.1154004170093685,0.008819580078125,ok
+poisson_pinn_1d,sgd,0,0.0035222333390265703,8.618086155820492e-08,2.5780819169885945,0.004398345947265625,ok
+poisson_pinn_1d,rmsprop,0,0.01085096225142479,0.0003510040114633739,3.3184458749892656,0.008819580078125,ok
+poisson_pinn_1d,fanosv2,1,0.006165221333503723,2.2043785065761767e-05,9.962057249998907,0.00879669189453125,ok
+poisson_pinn_1d,adamw,1,0.0014460436068475246,1.92396392151295e-08,3.1361522499937564,0.008819580078125,ok
+poisson_pinn_1d,sgd,1,0.003060181625187397,6.009265263173802e-08,2.6724154580151662,0.004398345947265625,ok
+poisson_pinn_1d,rmsprop,1,0.0005750267300754786,3.9144295442383736e-05,3.160262542020064,0.008819580078125,ok
+poisson_pinn_1d,fanosv2,2,0.06079908832907677,0.00035785368527285755,10.017622624989599,0.00879669189453125,ok
+poisson_pinn_1d,adamw,2,0.000833950296510011,1.4181404495161587e-08,3.1829611670109443,0.008819580078125,ok
+poisson_pinn_1d,sgd,2,0.0015370637411251664,2.1644037673240746e-08,2.6289408750017174,0.004398345947265625,ok
+poisson_pinn_1d,rmsprop,2,0.001389102777466178,0.0001232837967108935,3.126286374987103,0.008819580078125,ok
+poisson_pinn_1d,fanosv2,3,0.05836552008986473,2.6789908588398248e-05,9.95033162497566,0.00879669189453125,ok
+poisson_pinn_1d,adamw,3,0.0009268694557249546,1.5912490880509722e-08,3.364564874995267,0.008819580078125,ok
+poisson_pinn_1d,sgd,3,0.0021045964676886797,2.696762280152143e-08,2.6648777090013027,0.004398345947265625,ok
+poisson_pinn_1d,rmsprop,3,0.002669180277734995,4.1183076973538846e-05,3.133935082994867,0.008819580078125,ok
+poisson_pinn_1d,fanosv2,4,0.035839568823575974,0.0063602011650800705,9.994858499994734,0.00879669189453125,ok
+poisson_pinn_1d,adamw,4,0.0012301144888624549,1.464273147178119e-08,3.131356333993608,0.008819580078125,ok
+poisson_pinn_1d,sgd,4,0.004190046340227127,6.220351167485205e-08,2.6270789169939235,0.004398345947265625,ok
+poisson_pinn_1d,rmsprop,4,0.009567100554704666,0.0005842767423018813,3.090815790987108,0.008819580078125,ok
+sequence_memory,fanosv2,0,1.1017539236490848e-06,1.0,20.877154750021873,0.0092926025390625,ok
+sequence_memory,adamw,0,1.7967842723010108e-05,1.0,12.116569750010967,0.00931549072265625,ok
+sequence_memory,sgd,0,0.6901251077651978,0.5390625,11.597627000010107,0.00464630126953125,ok
+sequence_memory,rmsprop,0,0.6896730661392212,0.5390625,12.140030709007988,0.00931549072265625,ok
+sequence_memory,fanosv2,1,8.558851050111116e-07,1.0,20.792802790994756,0.0092926025390625,ok
+sequence_memory,adamw,1,3.195968020008877e-05,1.0,11.978718000027584,0.00931549072265625,ok
+sequence_memory,sgd,1,0.6927969455718994,0.5078125,11.82904770798632,0.00464630126953125,ok
+sequence_memory,rmsprop,1,0.6466561555862427,0.546875,12.133052124991082,0.00931549072265625,ok
+sequence_memory,fanosv2,2,9.033824426296633e-07,1.0,20.533753374998923,0.0092926025390625,ok
+sequence_memory,adamw,2,7.934836503409315e-06,1.0,11.94747774998541,0.00931549072265625,ok
+sequence_memory,sgd,2,0.6880137920379639,0.546875,11.404863208008464,0.00464630126953125,ok
+sequence_memory,rmsprop,2,0.6868956685066223,0.546875,12.143767625006149,0.00931549072265625,ok
+sequence_memory,fanosv2,3,1.354142113996204e-06,1.0,20.60016629099846,0.0092926025390625,ok
+sequence_memory,adamw,3,1.8005093807005323e-05,1.0,12.085167374985758,0.00931549072265625,ok
+sequence_memory,sgd,3,0.6902191638946533,0.5390625,11.539056415989762,0.00464630126953125,ok
+sequence_memory,rmsprop,3,0.0,1.0,12.147021499986295,0.00931549072265625,ok
+sequence_memory,fanosv2,4,8.977945640253893e-07,1.0,20.47385654100799,0.0092926025390625,ok
+sequence_memory,adamw,4,7.880820703576319e-06,1.0,11.829951209016144,0.00931549072265625,ok
+sequence_memory,sgd,4,0.6918264031410217,0.5234375,11.211572750005871,0.00464630126953125,ok
+sequence_memory,rmsprop,4,0.0,1.0,11.764664624992292,0.00931549072265625,ok

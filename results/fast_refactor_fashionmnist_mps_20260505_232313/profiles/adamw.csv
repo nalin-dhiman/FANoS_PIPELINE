@@ -1,0 +1,2 @@
+optimizer,loss,top1,seconds,state_mb,peak_gpu_mb,device,dataset
+adamw,1.6888383626937866,0.7445312514901161,0.9411649999965448,0.8077239990234375,0.0,mps,fashionmnist

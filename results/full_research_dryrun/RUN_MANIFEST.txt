@@ -1,0 +1,8 @@
+generated=2026-05-01 23:39:33
+device=mps
+blocks=vision stiff pinn
+vision_datasets=mnist fashionmnist cifar10
+seeds=0
+configs=low_lr auto
+results_root=/Users/nalin/Downloads/fanos_v2/results/full_research_dryrun
+report_root=/Users/nalin/Downloads/fanos_v2/reports
